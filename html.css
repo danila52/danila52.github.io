@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 860px;
+    flex-wrap: wrap;
+}
+
+
+.column {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 20px 0px;
+
+}
+
+.container p {
+    color: black;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:crimson
+}
+
+
+.container h1 {
+    margin-left: 20px;
+    font-size: 3rem;
+    color:crimson;
+}
+
+@media (max-width: 700px) {
+    .container {
+        height: 100%;
+        width: 420px;
+    }
+}
